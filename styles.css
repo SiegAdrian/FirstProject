@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    background-color: var(--secondary-color);
+    color: var(--quaternary-color);
+    text-align: center;
+
+    --primary-color: #133bc0;
+    --secondary-color: #c1c1c1;
+    --tertiary-color: #ffffff;
+    --quaternary-color: #000000;
+}
+
+.heading {
+    font-size: 44px;
+    color: var(--primary-color);
+}
+
+.your-word-text {
+    margin: 64px 0 8px 0;
+    font-size: 14px;
+}
+
+.word {
+    margin: 0 0 64px 0;
+    font-size: 40px;
+}
+
+.button {
+    font-size: 18px;
+    padding: 18px 72px;
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.previous-words {
+    margin: 48px auto 0;
+    max-width: 600px;
+    line-height: 24px;
+    font-weight: 600;
+    
+}
+
+.old-words {
+    font-weight: 400;
+    color: var(--primary-color);
+}
