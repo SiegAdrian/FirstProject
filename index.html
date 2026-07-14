@@ -1,19 +1,77 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FirstProject</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FirstProject</title>
+  <link rel="stylesheet" href="styles.css">
+
 </head>
+
 <body>
-  <h1 class="heading">FirstProject Wort-Generator</h1>
-  <p class="your-word-text">Dein Wort ist: </p>
-  <h2 class="word">-</h2>
-  <button class="button" onclick="onClick()">Generiere ein Wort</button>
-  <p class="previous-words">
-    Vorherige Wörter: <span class="old-words">-</span>
-  </p>
-  <script src="app.js"></script>
+
+  <div class="container">
+    <header class="site-header">
+
+      <a href="index.html" class="logo">
+        <img src="images/adrian.png" alt="Logo" class="logo-image">
+      </a>
+      <nav class="site-nav">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="#wort-generator">Wort-Generator</a></li>
+          <li><a class="nav-link" href="#about">Über mich</a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+  </div>
+
+
+
+  <main class="site-main">
+    <div class="container">
+      <section id="start" class="section">
+        <h1 class="title">Mein erstes Projekt</h1>
+        <p >Auf Nachfolgender Seite findest du meine ersten Gehversuche in Web-Entwicklung.</p>
+        <div class="cards">
+          <div class="card">
+            <h3>HTML</h3>
+            <p>Struktur und Inhalt einer Webseite</p>
+          </div>
+          <div class="card">
+            <h3>CSS</h3>
+            <p>Gestaltung und Layout einer Webseite</p>
+          </div>
+          <div class="card">
+            <h3>JavaScript</h3>
+            <p>Interaktivität und Funktionalität einer Webseite</p>
+          </div>
+        </div>
+    
+      </section>
+
+      <section id="wort-generator" class="section">
+        <h2 class="heading">Wort-Generator</h2>
+        <p class="your-word-text">Dein Wort ist: </p>
+        <h2 class="word">-</h2>
+        <button class="button" onclick="onClick()">Generiere ein Wort</button>
+        <p class="previous-words">
+          Vorherige Wörter: <span class="old-words">-</span>
+        </p>
+        <script src="app.js"></script>
+      </section>
+
+      <section id="about" class="section">
+        <h2 class="heading">Über mich</h2>
+        <p class="about-text ">Ich bin Adrian</p>
+        <img src="images/adrian.png" alt="Profilbild" class="profile-image">
+      </section>
+    </div>
+  </main>
+
+
 </body>
+
 </html>
